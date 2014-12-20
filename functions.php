@@ -51,7 +51,7 @@ function mytheme_enqueue_front_page_scripts() {
                    
                 wp_enqueue_script( 'prefixfree','','',true );
 
-               wp_enqueue_script('fonts', 'http://fast.fonts.net/jsapi/28024eeb-b256-4d05-ad27-214d6ef74cdf.js');
+               //wp_enqueue_script('fonts', 'http://fast.fonts.net/jsapi/28024eeb-b256-4d05-ad27-214d6ef74cdf.js');
                    
             wp_register_style( 'theme_stylesheet',
                     get_stylesheet_uri(),'','','');

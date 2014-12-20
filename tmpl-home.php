@@ -17,7 +17,7 @@ Template Name: Home Page
                 });
                 </script>
 	   <?php    //remove_all_filters('posts_orderby', 1);
-        $features = new WP_Query( 'category_name=home-slideshow&posts_per_page=10&orderby=rand&order=ASC&post-status=publish' );
+        $features = new WP_Query( 'category_name=home-slideshow&posts_per_page=30&orderby=rand&order=ASC&post-status=publish' );
         
         // Get any existing copy of our transient data
         if ( false === ( $features = get_transient( 'features' ) ) ) {

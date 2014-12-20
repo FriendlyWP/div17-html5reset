@@ -568,7 +568,8 @@ h5{
 h6 {
     font-size:1em;
     text-transform: uppercase;
-    font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-family: "Gill Sans MT",Calibri,sans-serif;
+    /* font-family: "Gill Sans MT",Calibri,sans-serif; */
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
@@ -745,7 +746,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 #content .ai1ec-full-event th {
     background: #EBE9DB;
     font-size: inherit !important;
-    font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif !important;
+    font-family: "Gill Sans MT",Calibri,sans-serif !important;
     font-size:1.3em !important;
     line-height: inherit !important;
     font-weight: normal !important;
@@ -800,7 +801,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 
 .ai1ec-excerpt .ai1ec-label {
     background: #EBE9DB !important;
-    font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-family: "Gill Sans MT",Calibri,sans-serif;
     padding: 0 0.6em !important;
     margin:0em .8em 0em 0em;
     text-shadow: 0px !important;
@@ -828,7 +829,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 .ai1ec-agenda-widget-view .ai1ec-event .ai1ec-event-time {
     font-size:1.1em;
     display:block;
-    font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-family: "Gill Sans MT",Calibri,sans-serif;
 }
 
 #articles .timely ol {
@@ -867,7 +868,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
     border: none;
 }
 .thenly h1, .thenly h2, .thenly h3, .thenly h4, .thenly h5, .thenly h6 {
-    font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-family: "Gill Sans MT",Calibri,sans-serif;
 }
 
 .thenly.ai1ec-agenda-widget-view .pull-right {
@@ -941,7 +942,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
     padding:.6em 0em .2em;
     text-transform: uppercase;
     font-weight: normal;
-    font-family:"Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-family:"Gill Sans MT",Calibri,sans-serif;
     border-bottom:1px solid #303B3F;
     margin:0em .6em .5em;
 }
@@ -1018,7 +1019,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
     font-size:1.5em;
     text-transform: uppercase;
     color:#fff !important;
-    font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-family: "Gill Sans MT",Calibri,sans-serif;
     text-shadow: 3px 3px 3px #ab5922;
     letter-spacing: 1px;
     display:block;
@@ -1048,7 +1049,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 }
 
 .nav {
-    font-family: "Gill Sans W01 Medium", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-family: "Gill Sans MT",Calibri,sans-serif;
+    /* font-family: "Gill Sans W01 Medium","Gill Sans","Gill Sans MT", Calibri, sans-serif; */
     text-transform: uppercase;
     margin-left: 2%;
     width: 97.4%;
@@ -1116,7 +1118,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
     margin:.5em 0em;
 }
 #searchsubmit, input[type="submit"] {
-    font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-family: "Gill Sans MT",Calibri,sans-serif;
     background:#0E3F60;
     border: none;
     color:#fff;
@@ -1281,18 +1283,18 @@ a.menu-toggler {
     float:right;
     font-size: 1.5em;
     text-transform: uppercase;
-    font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-family: "Gill Sans MT",Calibri,sans-serif;
     border:none;
 }
 
 .mobilemessage {
     display: inline-block;
     margin-left: .5em;
-     font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+     font-family: "Gill Sans MT",Calibri,sans-serif;
 }
 
 .mm-list {
-     font-family: "Gill Sans W01 Medium", "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+     font-family: "Gill Sans MT",Calibri,sans-serif;
 }
 
 .mm-list.menu > li a, .mm-list.menu > li a:visited {
