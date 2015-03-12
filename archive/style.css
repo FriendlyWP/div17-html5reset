@@ -502,9 +502,6 @@ a.site-title {
     line-height:0px;
 }
 
-.flexslider .text :last-child {
-    margin-bottom: 0;
-}
 #articles ol.flex-control-nav {
     bottom:30px;
     float:right;
@@ -1317,7 +1314,6 @@ a.menu-toggler {
     border-color:#E0742C !important;
 }
 
-
 /* Media queries!
 -------------------------------------------------------------------------------*/
 @media only screen and (min-width: 1205px) {
@@ -1428,6 +1424,4 @@ a.menu-toggler {
     .flex-control-nav {
         display: none;
     }
-
-
 }

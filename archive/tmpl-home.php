@@ -17,7 +17,7 @@ Template Name: Home Page
                 });
                 </script>
 	   <?php    //remove_all_filters('posts_orderby', 1);
-        $features = new WP_Query( 'category_name=home-slideshow&posts_per_page=30&orderby=rand&order=ASC&post-status=publish' );
+        $features = new WP_Query( 'category_name=home-slideshow&posts_per_page=10&orderby=rand&order=ASC&post-status=publish' );
         
         // Get any existing copy of our transient data
         if ( false === ( $features = get_transient( 'features' ) ) ) {
@@ -37,14 +37,14 @@ Template Name: Home Page
                     $thumb=vp_get_thumb_url($post->post_content, 'post-feature', true); 
                 }
                 ?>
+                <?php $excerpt = get_the_excerpt(); ?>
                 <li>
                     <?php 
                     if ( !get_field('hide_text') ) { ?>
                     <div class="copy">
                         <div class="text">
                         <h2><?php the_title(); ?></h2>
-                        <?php //echo string_limit_words($excerpt,15); 
-                         echo get_field('home_excerpt'); ?><?php if ( !get_field('link_slideshow_image') ) { ?><a class="readmorelink" title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">&raquo;&nbsp;Read more</a><?php } ?>
+                        <?php echo string_limit_words($excerpt,15); ?><?php if ( !get_field('link_slideshow_image') ) { ?>&hellip;&nbsp;<a class="readmorelink" title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">&raquo;&nbsp;Read more</a><?php } ?>
                         </div><!-- .text -->
                     </div><!-- .copy -->
                     <?php  } ?>
@@ -58,7 +58,7 @@ Template Name: Home Page
             <?php endwhile;
 
             // Reset Query
-            wp_reset_query();
+           // wp_reset_query();
             //rewind_posts();
             ?>
             </ul><!-- .slider -->

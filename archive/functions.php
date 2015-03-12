@@ -162,8 +162,7 @@ function gavsiu_recent_posts( $atts ) {
     extract( shortcode_atts( array(
         'cat'            => 1,
         'num_posts'      => 3,
-        'words'         => 14,
-        'viewall'      => 'scp-news'
+        'words'         => 14
     ), $atts ) );
 
     $recent_posts = get_posts( array(
@@ -175,7 +174,7 @@ function gavsiu_recent_posts( $atts ) {
         $excerpt = get_the_excerpt();
         $link = esc_url( get_permalink( $post->ID ) );
         $permalink = ' <a class="readmore" href="'. esc_url( get_permalink( $post->ID ) ) . '" title="' . esc_attr( $post->post_title ) . '" rel="bookmark">' . __( 'Read more' ) . '</a>';
-        $readall = ' <a class="readall" href="' . home_url('/') . $viewall . '">Read all News</a>';       
+        $readall = ' <a class="readall" href="' . home_url('/news') . '">Read all News</a>';       
         $custom = MultiPostThumbnails::get_post_thumbnail_id('post', 'home-thumb-image', $post->ID);
         $custom=wp_get_attachment_image_src($custom, 'home-thumb');
         $return = '<a class="news-img" href="' . $link . '" title="' . $post->post_title . '"><img src="' . $custom[0] . '" /></a>';
